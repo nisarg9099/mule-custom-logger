@@ -1,6 +1,7 @@
 # What?
 This is a Custom Mule logger to replace MuleSoft's out of the box logger to enforce logging standards on mule application logs. This logger builds and logs Java HashMap with the given key-value pairs thus providing a way to generate consistent and structured log messages.
 
+
 # Why?
 One of the reasons for developing this custom module is to feed JSON logs to log analyzers like Splunk, ELK etc. When these log analyzers receive structured logs(JSON), It is easy on the log analyzer side to create reports, dashboards etc. Below are the things this Logger can do when compared to out-of-the-box MuleSoft's logger component.
 
